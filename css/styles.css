@@ -1,14 +1,34 @@
 body {
-  font-family: "Roboto", sans-serif; 
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
-
 }
-a{
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+a {
   list-style-type: none;
 }
 /* header */
-.header-title  {
+.header {
+  width: 1158px;
+  
+}
+.header-link,
+.header-container,
+.header-container-my,
+.header-link-address {
+  display: flex;
+}
+
+.header-title {
   color: #4d5ae5;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -16,7 +36,7 @@ a{
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-
+  padding: 24px 76px 24px 156px;
 }
 .contakt-link {
   color: #434455;
@@ -24,16 +44,25 @@ a{
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.post-link-header{
+.header-link {
+  gap: 40px;
+  padding: 24px 0;
+}
+.header-link-address {
+  gap: 40px;
+  padding: 24px 156px 24px 0;
+}
+
+.post-link-header {
   color: #2e2f42;
 }
 .post-link-header:hover,
-.post-link-header:focus{
-  color: #404bbf ;
+.post-link-header:focus {
+  color: #404bbf;
 }
 .contakt-link:hover,
 .contakt-link:focus {
-  color: #404bbf ;
+  color: #404bbf;
 }
 
 .post-link {
@@ -43,34 +72,55 @@ a{
   font-weight: 500;
   letter-spacing: 0.02em;
 }
-.post-link:hover,.post-link:active{
-  color: #404bbf ;
+.post-link:hover,
+.post-link:active {
+  color: #404bbf;
 }
 .accent {
-  color: #2e2f42 ;
+  color: #2e2f42;
 }
-.address{
-  font-style:normal ;
+.address {
+  font-style: normal;
+}
+.header-container-my {
+  justify-content: space-between;
 }
 
 /* Maim */
-ul,li{
+ul,
+li {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
 }
+/* Hero section */
 .title {
   background-color: #2e2f42;
+  display: flex;
+  width: 1158px;
+  
+}
+.title-container {
+  flex-direction: column;
+  display: flex;
+  gap: 40px;
+  margin: 0 auto;
+  padding: 188px 0;
+  
+
 }
 .post-title {
   color: #fff;
   line-height: 1.07;
   font-size: 56px;
   font-weight: 700;
-  text-align:center;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  display: flex;
+  width: 496px;
+  
   
 }
 .button-title {
@@ -80,16 +130,34 @@ a{
   font-weight: 500;
   line-height: 1.5;
   background-color: #4d5ae5;
-  cursor:pointer;
+  cursor: pointer;
   letter-spacing: 0.04em;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  min-width:169px;
+  height: 56px;
+padding: 16px 32px;
+  
+  border-radius: 4px;
 }
 .button-title:hover,
 .button-title:focus {
-  color: #404BBF;
-  background-color: #404BBF ;
+  color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* Description */
+.container-description-my {
+  width: 1158px;
+
+  padding: 120px 0;
+}
+.container-description {
+  display: flex;
+  gap: 24px;
+  padding-top: auto;
+}
 
 .description-title {
   color: #2e2f42;
@@ -97,6 +165,7 @@ a{
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 .description-text {
   font-size: 16px;
@@ -104,8 +173,22 @@ a{
   letter-spacing: 0.02em;
 }
 /* Photo */
+.container-photo{
+  padding: 120px 156px;
+  
+}
 .photo {
   background-color: #f4f4fd;
+  
+  width: 1158px;
+  
+}
+.photo-team{
+  display: flex;
+  gap: 24px;
+  justify-content:center;
+  padding:72px 156px 120px 156px;
+  
 }
 .photo-title {
   color: #2e2f42;
@@ -116,8 +199,9 @@ a{
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-.photo-stile{
-  background-color:#FFFFFF;
+.photo-stile {
+  background-color: #ffffff;
+  
 }
 .photo-name {
   color: #2e2f42;
@@ -126,10 +210,20 @@ a{
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.block-image {
+  display: block;
+}
+/* portfolio-photo */
+.portfolio-photo{
+  
+}
+.portfolio-photo-product{
+  display: flex;
+}
 /* footer */
 .footer {
   background-color: #2e2f42;
-  
+
 }
 .footer-text {
   color: #f4f4fd;
@@ -141,11 +235,18 @@ a{
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   text-transform: uppercase;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.03em
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
-.accent-footer{
-  color: #f4f4fd ;
+.accent-footer {
+  color: #f4f4fd;
+}
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 156px;
+  margin-right: 156px;
 }
