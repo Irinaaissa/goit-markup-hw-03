@@ -18,8 +18,8 @@ a {
 }
 /* header */
 .header {
-  width: 1158px;
   
+  height: 72px;
 }
 .header-link,
 .header-container,
@@ -98,7 +98,7 @@ a {
 .title {
   background-color: #2e2f42;
   display: flex;
-  width: 1158px;
+  
   
 }
 .title-container {
@@ -149,7 +149,7 @@ padding: 16px 32px;
 
 /* Description */
 .container-description-my {
-  width: 1158px;
+  
 
   padding: 120px 0;
 }
@@ -157,6 +157,9 @@ padding: 16px 32px;
   display: flex;
   gap: 24px;
   padding-top: auto;
+  padding-left: 156px;
+  padding-right: 156px;
+  
 }
 
 .description-title {
@@ -171,6 +174,7 @@ padding: 16px 32px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 /* Photo */
 .container-photo{
@@ -179,15 +183,16 @@ padding: 16px 32px;
 }
 .photo {
   background-color: #f4f4fd;
-  
-  width: 1158px;
-  
+
+}
+.photo-name-text ,.photo-name-description{
+  padding: 32px 0;
 }
 .photo-team{
   display: flex;
   gap: 24px;
-  justify-content:center;
-  padding:72px 156px 120px 156px;
+  
+  
   
 }
 .photo-title {
@@ -198,6 +203,7 @@ padding: 16px 32px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 .photo-stile {
   background-color: #ffffff;
@@ -219,10 +225,18 @@ padding: 16px 32px;
 }
 .portfolio-photo-product{
   display: flex;
+  flex-wrap:wrap;
+}
+.portfolio-text{
+  margin-top: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* footer */
 .footer {
   background-color: #2e2f42;
+  height: 312px;
 
 }
 .footer-text {
@@ -230,6 +244,8 @@ padding: 16px 32px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  margin-top: 18px;
 }
 .footer-title {
   color: #4d5ae5;
@@ -239,14 +255,19 @@ padding: 16px 32px;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+ 
 }
 .accent-footer {
   color: #f4f4fd;
+}
+.footer-text-title{
+  justify-content: start;
+  padding-top: 100px;
 }
 .container {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 156px;
-  margin-right: 156px;
+  margin: 0 auto;
+  
 }
