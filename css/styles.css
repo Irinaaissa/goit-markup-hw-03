@@ -40,7 +40,8 @@ a {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-
+  padding-top: 24px; 
+ padding-bottom: 24px
   margin-right: 76px;
   
 }
