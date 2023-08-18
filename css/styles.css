@@ -38,7 +38,8 @@ a {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  padding: 24px 76px 24px 156px;
+  padding-top: 24px;
+   padding-bottom: 24px;
   margin-right: 76px
 }
 .contakt-link {
@@ -162,7 +163,7 @@ border: none;
   width: calc((100% - 72px) / 4);
 }
 .title-description{
-  visibility: hidden;
+  
   margin-bottom: 8px;
 }
 .container-description {
@@ -180,7 +181,7 @@ border: none;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .description-text {
   font-size: 16px;
@@ -227,6 +228,7 @@ border: none;
 .photo-stile {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px; 
+  width: calc((100% - 72px) / 4); 
 }
 .photo-name {
   color: #2e2f42;
@@ -235,19 +237,24 @@ border: none;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px
 }
 .block-image {
   display: block;
 }
 /* portfolio-photo */
 .container-photo{
-  padding: 32px 16px;
+  
   border: 1px solid #e7e9fc;
+  
 }
 .portfolio-photo{
   padding-top: 120px; 
   padding-bottom: 120px;
 
+}
+.portfolio-photo-list{
+  width: calc((100% - 48px) / 3); 
 }
 .portfolio-photo-product{
   display: flex;
@@ -269,11 +276,14 @@ border: none;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 8px;
+
+  margin-bottom: 72px
 }
 .photo-name-portfolio{
-  padding: 32px 0;
+  
   align-items: flex-start;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .hicture-title{
   color: #2e2f42;
@@ -281,6 +291,7 @@ border: none;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 /* footer */
 .footer {
