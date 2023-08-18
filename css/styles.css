@@ -29,6 +29,8 @@ a {
 }
 .header-container {
   align-items: center;
+  
+  
 }
 .header-title {
   color: #4d5ae5;
@@ -40,12 +42,14 @@ a {
   letter-spacing: 0.03em;
 
   margin-right: 76px;
+  
 }
 .contakt-link {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  
 }
 .header-link {
   gap: 40px;
@@ -54,6 +58,7 @@ a {
 .header-link-address {
   gap: 40px;
   padding: 24px 0;
+
 }
 
 .post-link-header {
@@ -148,7 +153,9 @@ a {
 }
 
 /* Description */
-
+.container-description-my{
+  padding: 120px 0;
+}
 
 .description-list {
   width: calc((100% - 72px) / 4);
@@ -172,8 +179,8 @@ a {
   display: flex;
   gap: 24px;
   padding-top: auto;
-  padding-left: 156px;
-  padding-right: 156px;
+ 
+ 
 }
 
 .description-title {
