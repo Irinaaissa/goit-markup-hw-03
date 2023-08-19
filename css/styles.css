@@ -74,7 +74,10 @@ a {
 .contakt-link:hover,
 .contakt-link:focus {
   color: #404bbf;
-}
+  padding: 24px 0;
+  display: block;
+ }
+
 
 .post-link {
   font-size: 16px;
