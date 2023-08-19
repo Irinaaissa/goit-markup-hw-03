@@ -64,6 +64,8 @@ a {
 
 .post-link-header {
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 .post-link-header:hover,
 .post-link-header:focus {
