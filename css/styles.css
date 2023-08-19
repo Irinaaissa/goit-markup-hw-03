@@ -42,7 +42,7 @@ a {
   letter-spacing: 0.03em;
   padding-top: 24px; 
  padding-bottom: 24px;
-
+ display: block;
   margin-right: 76px;
   
 }
