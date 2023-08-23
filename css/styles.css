@@ -12,11 +12,17 @@ p {
 ul {
   margin: 0;
   padding-left: 0;
+  list-style: none;
 }
 a {
   list-style-type: none;
+  text-decoration: none;
+}
+li{
+  list-style: none;
 }
 /* header */
+
 .header {
   border-bottom: 1px solid #e7e9fc;
   
@@ -103,13 +109,8 @@ a {
 }
 
 /* Maim */
-ul,
-li {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
+
+
 /* Hero section */
 .title {
   background-color: #2e2f42;
