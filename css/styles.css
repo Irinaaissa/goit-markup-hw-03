@@ -19,7 +19,7 @@ a {
 /* header */
 .header {
   border-bottom: 1px solid #e7e9fc;
-  height: 72px;
+  
 }
 .header-link,
 .header-container,
@@ -51,10 +51,12 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
-}
+  display: block;
+ }
+
 .header-link {
   gap: 40px;
-  padding: 24px 0;
+  
 }
 .header-link-address {
   gap: 40px;
@@ -74,8 +76,7 @@ a {
 .contakt-link:hover,
 .contakt-link:focus {
   color: #404bbf;
-  padding: 24px 0;
-  display: block;
+  
  }
 
 
@@ -98,6 +99,7 @@ a {
 }
 .header-container-my {
   justify-content: space-between;
+  align-items: center;
 }
 
 /* Maim */
